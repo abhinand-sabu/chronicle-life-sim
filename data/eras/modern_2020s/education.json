@@ -1,0 +1,133 @@
+[
+  {
+    "id": "primary",
+    "name": "Primary School",
+    "level": "primary",
+    "durationYears": 8,
+    "minAge": 5,
+    "annualTuition": 0,
+    "minIntelligence": 0,
+    "weeklyStudyHoursRequired": 25,
+    "skillTags": ["literacy", "numeracy"]
+  },
+  {
+    "id": "high_school",
+    "name": "High School",
+    "level": "secondary",
+    "durationYears": 5,
+    "minAge": 13,
+    "annualTuition": 0,
+    "minIntelligence": 0,
+    "weeklyStudyHoursRequired": 32,
+    "prerequisite": "primary",
+    "skillTags": ["critical_thinking", "communication"]
+  },
+  {
+    "id": "trade_electrician",
+    "name": "Electrical & Technical Trade School",
+    "level": "vocational",
+    "durationYears": 2,
+    "minAge": 18,
+    "annualTuition": 6500,
+    "minIntelligence": 30,
+    "weeklyStudyHoursRequired": 32,
+    "prerequisite": "high_school",
+    "skillTags": ["trades", "operations"]
+  },
+  {
+    "id": "uni_cs",
+    "name": "B.S. Computer Science",
+    "level": "undergraduate",
+    "durationYears": 4,
+    "minAge": 18,
+    "annualTuition": 16000,
+    "minIntelligence": 55,
+    "weeklyStudyHoursRequired": 38,
+    "prerequisite": "high_school",
+    "skillTags": ["coding", "analytics"]
+  },
+  {
+    "id": "uni_finance",
+    "name": "B.A. Finance & Economics",
+    "level": "undergraduate",
+    "durationYears": 4,
+    "minAge": 18,
+    "annualTuition": 15500,
+    "minIntelligence": 50,
+    "weeklyStudyHoursRequired": 36,
+    "prerequisite": "high_school",
+    "skillTags": ["finance", "analytics", "persuasion"]
+  },
+  {
+    "id": "uni_biology",
+    "name": "B.S. Biomedical Sciences",
+    "level": "undergraduate",
+    "durationYears": 4,
+    "minAge": 18,
+    "annualTuition": 16500,
+    "minIntelligence": 62,
+    "weeklyStudyHoursRequired": 40,
+    "prerequisite": "high_school",
+    "skillTags": ["medicine", "analytics"]
+  },
+  {
+    "id": "uni_arts",
+    "name": "B.F.A. Design & Media",
+    "level": "undergraduate",
+    "durationYears": 4,
+    "minAge": 18,
+    "annualTuition": 14000,
+    "minIntelligence": 35,
+    "weeklyStudyHoursRequired": 34,
+    "prerequisite": "high_school",
+    "skillTags": ["creativity", "communication"]
+  },
+  {
+    "id": "uni_business",
+    "name": "B.B.A. Business Administration",
+    "level": "undergraduate",
+    "durationYears": 4,
+    "minAge": 18,
+    "annualTuition": 14500,
+    "minIntelligence": 42,
+    "weeklyStudyHoursRequired": 34,
+    "prerequisite": "high_school",
+    "skillTags": ["leadership", "finance", "communication"]
+  },
+  {
+    "id": "grad_med",
+    "name": "Doctor of Medicine (MD)",
+    "level": "graduate",
+    "durationYears": 4,
+    "minAge": 22,
+    "annualTuition": 32000,
+    "minIntelligence": 72,
+    "weeklyStudyHoursRequired": 48,
+    "prerequisite": "uni_biology",
+    "skillTags": ["medicine", "leadership"]
+  },
+  {
+    "id": "grad_law",
+    "name": "Juris Doctor (Law School)",
+    "level": "graduate",
+    "durationYears": 3,
+    "minAge": 22,
+    "annualTuition": 28000,
+    "minIntelligence": 68,
+    "weeklyStudyHoursRequired": 45,
+    "prerequisite": "uni_finance",
+    "skillTags": ["law", "persuasion", "analytics"]
+  },
+  {
+    "id": "grad_mba",
+    "name": "Master of Business Administration (MBA)",
+    "level": "graduate",
+    "durationYears": 2,
+    "minAge": 22,
+    "annualTuition": 26000,
+    "minIntelligence": 58,
+    "weeklyStudyHoursRequired": 42,
+    "prerequisite": "uni_business",
+    "skillTags": ["leadership", "finance", "persuasion"]
+  }
+]

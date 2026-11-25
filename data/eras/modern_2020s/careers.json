@@ -1,0 +1,350 @@
+[
+  {
+    "id": "part_time",
+    "name": "Part-Time & Service",
+    "industry": "service",
+    "isPartTime": true,
+    "tiers": [
+      {
+        "id": "barista",
+        "title": "Barista",
+        "level": 1,
+        "minAge": 15,
+        "baseAnnualSalary": 18000,
+        "weeklyHoursRequired": 20,
+        "annualStressImpact": 6,
+        "requiredEducation": [],
+        "minSkills": {},
+        "skillGrowth": { "communication": 6 }
+      },
+      {
+        "id": "tutor",
+        "title": "Academic Tutor",
+        "level": 1,
+        "minAge": 16,
+        "baseAnnualSalary": 22000,
+        "weeklyHoursRequired": 18,
+        "annualStressImpact": 4,
+        "requiredEducation": [],
+        "minSkills": {},
+        "minIntelligence": 55,
+        "skillGrowth": { "communication": 5, "analytics": 5 }
+      }
+    ]
+  },
+  {
+    "id": "software_eng",
+    "name": "Software Engineering",
+    "industry": "tech",
+    "isPartTime": false,
+    "tiers": [
+      {
+        "id": "jr_dev",
+        "title": "Junior Software Engineer",
+        "level": 1,
+        "minAge": 18,
+        "baseAnnualSalary": 78000,
+        "weeklyHoursRequired": 40,
+        "annualStressImpact": 12,
+        "requiredEducation": ["uni_cs"],
+        "minSkills": { "coding": 20 },
+        "skillGrowth": { "coding": 12, "analytics": 6 }
+      },
+      {
+        "id": "mid_dev",
+        "title": "Software Engineer",
+        "level": 2,
+        "minAge": 20,
+        "baseAnnualSalary": 115000,
+        "weeklyHoursRequired": 42,
+        "annualStressImpact": 15,
+        "requiredEducation": ["uni_cs"],
+        "minSkills": { "coding": 45 },
+        "minYearsInTrack": 2,
+        "skillGrowth": { "coding": 10, "analytics": 8, "leadership": 4 }
+      },
+      {
+        "id": "sr_dev",
+        "title": "Senior Software Engineer",
+        "level": 3,
+        "minAge": 23,
+        "baseAnnualSalary": 165000,
+        "weeklyHoursRequired": 45,
+        "annualStressImpact": 18,
+        "requiredEducation": ["uni_cs"],
+        "minSkills": { "coding": 70, "analytics": 45 },
+        "minYearsInTrack": 5,
+        "skillGrowth": { "coding": 8, "leadership": 10 }
+      },
+      {
+        "id": "staff_eng",
+        "title": "Staff Engineer",
+        "level": 4,
+        "minAge": 27,
+        "baseAnnualSalary": 235000,
+        "weeklyHoursRequired": 46,
+        "annualStressImpact": 20,
+        "requiredEducation": ["uni_cs"],
+        "minSkills": { "coding": 85, "leadership": 55 },
+        "minYearsInTrack": 8,
+        "skillGrowth": { "leadership": 12, "persuasion": 6 }
+      },
+      {
+        "id": "vp_eng",
+        "title": "VP of Engineering",
+        "level": 5,
+        "minAge": 32,
+        "baseAnnualSalary": 340000,
+        "weeklyHoursRequired": 50,
+        "annualStressImpact": 26,
+        "requiredEducation": ["uni_cs"],
+        "minSkills": { "coding": 85, "leadership": 80 },
+        "minYearsInTrack": 12,
+        "skillGrowth": { "leadership": 10, "finance": 8 }
+      }
+    ]
+  },
+  {
+    "id": "finance_track",
+    "name": "Finance & Investment",
+    "industry": "finance",
+    "isPartTime": false,
+    "tiers": [
+      {
+        "id": "fin_analyst",
+        "title": "Financial Analyst",
+        "level": 1,
+        "minAge": 18,
+        "baseAnnualSalary": 72000,
+        "weeklyHoursRequired": 45,
+        "annualStressImpact": 18,
+        "requiredEducation": ["uni_finance", "uni_business"],
+        "minSkills": { "finance": 20 },
+        "skillGrowth": { "finance": 12, "analytics": 8 }
+      },
+      {
+        "id": "fin_associate",
+        "title": "Investment Associate",
+        "level": 2,
+        "minAge": 21,
+        "baseAnnualSalary": 125000,
+        "weeklyHoursRequired": 50,
+        "annualStressImpact": 24,
+        "requiredEducation": ["uni_finance", "uni_business"],
+        "minSkills": { "finance": 48, "analytics": 40 },
+        "minYearsInTrack": 2,
+        "skillGrowth": { "finance": 12, "persuasion": 8 }
+      },
+      {
+        "id": "portfolio_mgr",
+        "title": "Portfolio Manager",
+        "level": 3,
+        "minAge": 26,
+        "baseAnnualSalary": 210000,
+        "weeklyHoursRequired": 52,
+        "annualStressImpact": 28,
+        "requiredEducation": ["uni_finance", "grad_mba"],
+        "minSkills": { "finance": 72, "leadership": 50 },
+        "minYearsInTrack": 6,
+        "skillGrowth": { "finance": 10, "leadership": 10 }
+      },
+      {
+        "id": "managing_director",
+        "title": "Managing Director",
+        "level": 4,
+        "minAge": 32,
+        "baseAnnualSalary": 380000,
+        "weeklyHoursRequired": 55,
+        "annualStressImpact": 32,
+        "requiredEducation": ["uni_finance", "grad_mba"],
+        "minSkills": { "finance": 88, "leadership": 75, "persuasion": 65 },
+        "minYearsInTrack": 11,
+        "skillGrowth": { "leadership": 10, "persuasion": 10 }
+      }
+    ]
+  },
+  {
+    "id": "medicine_track",
+    "name": "Medicine & Healthcare",
+    "industry": "healthcare",
+    "isPartTime": false,
+    "tiers": [
+      {
+        "id": "med_resident",
+        "title": "Medical Resident",
+        "level": 1,
+        "minAge": 24,
+        "baseAnnualSalary": 68000,
+        "weeklyHoursRequired": 56,
+        "annualStressImpact": 30,
+        "requiredEducation": ["grad_med"],
+        "minSkills": { "medicine": 35 },
+        "skillGrowth": { "medicine": 16, "communication": 6 }
+      },
+      {
+        "id": "attending_physician",
+        "title": "Attending Physician",
+        "level": 2,
+        "minAge": 28,
+        "baseAnnualSalary": 240000,
+        "weeklyHoursRequired": 48,
+        "annualStressImpact": 22,
+        "requiredEducation": ["grad_med"],
+        "minSkills": { "medicine": 65 },
+        "minYearsInTrack": 3,
+        "skillGrowth": { "medicine": 10, "leadership": 8 }
+      },
+      {
+        "id": "chief_surgeon",
+        "title": "Chief of Surgery",
+        "level": 3,
+        "minAge": 35,
+        "baseAnnualSalary": 410000,
+        "weeklyHoursRequired": 50,
+        "annualStressImpact": 26,
+        "requiredEducation": ["grad_med"],
+        "minSkills": { "medicine": 88, "leadership": 70 },
+        "minYearsInTrack": 9,
+        "skillGrowth": { "medicine": 6, "leadership": 12 }
+      }
+    ]
+  },
+  {
+    "id": "creative_track",
+    "name": "Design & Creative Media",
+    "industry": "creative",
+    "isPartTime": false,
+    "tiers": [
+      {
+        "id": "jr_designer",
+        "title": "Junior Product Designer",
+        "level": 1,
+        "minAge": 18,
+        "baseAnnualSalary": 58000,
+        "weeklyHoursRequired": 40,
+        "annualStressImpact": 10,
+        "requiredEducation": ["uni_arts", "high_school"],
+        "minSkills": { "creativity": 20 },
+        "skillGrowth": { "creativity": 12, "communication": 8 }
+      },
+      {
+        "id": "sr_designer",
+        "title": "Senior Product Designer",
+        "level": 2,
+        "minAge": 22,
+        "baseAnnualSalary": 105000,
+        "weeklyHoursRequired": 42,
+        "annualStressImpact": 14,
+        "requiredEducation": ["uni_arts", "high_school"],
+        "minSkills": { "creativity": 55, "communication": 40 },
+        "minYearsInTrack": 3,
+        "skillGrowth": { "creativity": 10, "leadership": 8 }
+      },
+      {
+        "id": "creative_director",
+        "title": "Creative Director",
+        "level": 3,
+        "minAge": 28,
+        "baseAnnualSalary": 185000,
+        "weeklyHoursRequired": 45,
+        "annualStressImpact": 18,
+        "requiredEducation": ["uni_arts", "high_school"],
+        "minSkills": { "creativity": 80, "leadership": 60 },
+        "minYearsInTrack": 7,
+        "skillGrowth": { "leadership": 12, "persuasion": 8 }
+      }
+    ]
+  },
+  {
+    "id": "trades_track",
+    "name": "Skilled Trades & Operations",
+    "industry": "trades",
+    "isPartTime": false,
+    "tiers": [
+      {
+        "id": "apprentice_elec",
+        "title": "Apprentice Electrician",
+        "level": 1,
+        "minAge": 18,
+        "baseAnnualSalary": 48000,
+        "weeklyHoursRequired": 40,
+        "annualStressImpact": 10,
+        "requiredEducation": ["high_school", "trade_electrician"],
+        "minSkills": {},
+        "skillGrowth": { "trades": 14, "operations": 6 }
+      },
+      {
+        "id": "master_elec",
+        "title": "Master Electrician",
+        "level": 2,
+        "minAge": 22,
+        "baseAnnualSalary": 88000,
+        "weeklyHoursRequired": 42,
+        "annualStressImpact": 12,
+        "requiredEducation": ["high_school", "trade_electrician"],
+        "minSkills": { "trades": 55 },
+        "minYearsInTrack": 3,
+        "skillGrowth": { "trades": 10, "leadership": 8 }
+      },
+      {
+        "id": "ops_contractor",
+        "title": "Principal Contractor",
+        "level": 3,
+        "minAge": 27,
+        "baseAnnualSalary": 145000,
+        "weeklyHoursRequired": 45,
+        "annualStressImpact": 16,
+        "requiredEducation": ["high_school", "trade_electrician"],
+        "minSkills": { "trades": 75, "leadership": 50 },
+        "minYearsInTrack": 7,
+        "skillGrowth": { "leadership": 10, "finance": 8 }
+      }
+    ]
+  },
+  {
+    "id": "law_track",
+    "name": "Law & Legal Practice",
+    "industry": "law",
+    "isPartTime": false,
+    "tiers": [
+      {
+        "id": "jr_associate_law",
+        "title": "Junior Legal Associate",
+        "level": 1,
+        "minAge": 24,
+        "baseAnnualSalary": 115000,
+        "weeklyHoursRequired": 54,
+        "annualStressImpact": 26,
+        "requiredEducation": ["grad_law"],
+        "minSkills": { "law": 35 },
+        "skillGrowth": { "law": 14, "persuasion": 10 }
+      },
+      {
+        "id": "sr_counsel",
+        "title": "Senior Counsel",
+        "level": 2,
+        "minAge": 29,
+        "baseAnnualSalary": 215000,
+        "weeklyHoursRequired": 50,
+        "annualStressImpact": 24,
+        "requiredEducation": ["grad_law"],
+        "minSkills": { "law": 68, "persuasion": 55 },
+        "minYearsInTrack": 4,
+        "skillGrowth": { "law": 10, "leadership": 8 }
+      },
+      {
+        "id": "law_partner",
+        "title": "Equity Partner",
+        "level": 3,
+        "minAge": 35,
+        "baseAnnualSalary": 395000,
+        "weeklyHoursRequired": 52,
+        "annualStressImpact": 28,
+        "requiredEducation": ["grad_law"],
+        "minSkills": { "law": 88, "persuasion": 80, "leadership": 70 },
+        "minYearsInTrack": 10,
+        "skillGrowth": { "leadership": 10, "finance": 10 }
+      }
+    ]
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "id": "modern_2020s",
+  "name": "Modern Day (2020s)",
+  "description": "Contemporary global economy, digital careers, modern healthcare, and social dynamics.",
+  "startYear": 2025,
+  "defaultCountryId": "usa",
+  "macroStates": {
+    "boom": {
+      "label": "Economic Boom",
+      "annualInflation": 0.032,
+      "annualMarketReturn": 0.14,
+      "hiringMultiplier": 1.25,
+      "layoffRiskMultiplier": 0.5,
+      "salaryGrowthBonus": 0.03
+    },
+    "normal": {
+      "label": "Stable Economy",
+      "annualInflation": 0.024,
+      "annualMarketReturn": 0.075,
+      "hiringMultiplier": 1.0,
+      "layoffRiskMultiplier": 1.0,
+      "salaryGrowthBonus": 0.015
+    },
+    "recession": {
+      "label": "Recession",
+      "annualInflation": 0.045,
+      "annualMarketReturn": -0.11,
+      "hiringMultiplier": 0.65,
+      "layoffRiskMultiplier": 2.2,
+      "salaryGrowthBonus": 0.0
+    }
+  }
+}

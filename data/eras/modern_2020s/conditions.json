@@ -1,0 +1,174 @@
+{
+  "conditions": [
+    {
+      "id": "seasonal_flu",
+      "name": "Seasonal Flu",
+      "category": "physical",
+      "chronic": false,
+      "severity": 18,
+      "annualHealthDrain": 12,
+      "annualMentalDrain": 4,
+      "annualMortalityRisk": 0.001,
+      "treatmentCost": 180,
+      "cureChance": 0.92,
+      "heritable": false
+    },
+    {
+      "id": "sports_injury",
+      "name": "Ligament Sprain",
+      "category": "physical",
+      "chronic": false,
+      "severity": 25,
+      "annualHealthDrain": 10,
+      "annualMentalDrain": 6,
+      "annualMortalityRisk": 0,
+      "treatmentCost": 950,
+      "cureChance": 0.85,
+      "heritable": false
+    },
+    {
+      "id": "burnout_syndrome",
+      "name": "Clinical Burnout",
+      "category": "mental",
+      "chronic": false,
+      "severity": 45,
+      "annualHealthDrain": 8,
+      "annualMentalDrain": 22,
+      "annualMortalityRisk": 0,
+      "treatmentCost": 1400,
+      "cureChance": 0.65,
+      "heritable": false
+    },
+    {
+      "id": "anxiety",
+      "name": "Generalized Anxiety",
+      "category": "mental",
+      "chronic": true,
+      "severity": 35,
+      "annualHealthDrain": 3,
+      "annualMentalDrain": 14,
+      "annualMortalityRisk": 0,
+      "treatmentCost": 1200,
+      "cureChance": 0.35,
+      "heritable": true
+    },
+    {
+      "id": "depression",
+      "name": "Clinical Depression",
+      "category": "mental",
+      "chronic": true,
+      "severity": 50,
+      "annualHealthDrain": 6,
+      "annualMentalDrain": 20,
+      "annualMortalityRisk": 0.003,
+      "treatmentCost": 1600,
+      "cureChance": 0.3,
+      "heritable": true
+    },
+    {
+      "id": "hypertension",
+      "name": "Hypertension",
+      "category": "physical",
+      "chronic": true,
+      "severity": 40,
+      "annualHealthDrain": 8,
+      "annualMentalDrain": 2,
+      "annualMortalityRisk": 0.012,
+      "treatmentCost": 1100,
+      "cureChance": 0.2,
+      "heritable": true
+    },
+    {
+      "id": "diabetes_t2",
+      "name": "Type 2 Diabetes",
+      "category": "physical",
+      "chronic": true,
+      "severity": 45,
+      "annualHealthDrain": 10,
+      "annualMentalDrain": 4,
+      "annualMortalityRisk": 0.015,
+      "treatmentCost": 2200,
+      "cureChance": 0.12,
+      "heritable": true
+    },
+    {
+      "id": "heart_disease",
+      "name": "Coronary Heart Disease",
+      "category": "physical",
+      "chronic": true,
+      "severity": 72,
+      "annualHealthDrain": 16,
+      "annualMentalDrain": 6,
+      "annualMortalityRisk": 0.055,
+      "treatmentCost": 8500,
+      "cureChance": 0.1,
+      "heritable": true
+    }
+  ],
+  "habits": [
+    {
+      "id": "gym_routine",
+      "name": "Consistent Strength & Cardio",
+      "polarity": "positive",
+      "annualHealthDelta": 8,
+      "annualMentalDelta": 6,
+      "annualStressDelta": -8,
+      "annualCost": 600
+    },
+    {
+      "id": "daily_reading",
+      "name": "Daily Deep Reading",
+      "polarity": "positive",
+      "annualHealthDelta": 0,
+      "annualMentalDelta": 5,
+      "annualStressDelta": -4,
+      "annualIntelligenceDelta": 4,
+      "annualCost": 180
+    },
+    {
+      "id": "meditation",
+      "name": "Mindfulness & Journaling",
+      "polarity": "positive",
+      "annualHealthDelta": 2,
+      "annualMentalDelta": 10,
+      "annualStressDelta": -12,
+      "annualCost": 0
+    },
+    {
+      "id": "smoking",
+      "name": "Nicotine Smoking",
+      "polarity": "negative",
+      "annualHealthDelta": -10,
+      "annualMentalDelta": -2,
+      "annualStressDelta": -3,
+      "annualCost": 2400
+    },
+    {
+      "id": "heavy_drinking",
+      "name": "Heavy Drinking",
+      "polarity": "negative",
+      "annualHealthDelta": -12,
+      "annualMentalDelta": -8,
+      "annualStressDelta": -4,
+      "annualCost": 3200
+    },
+    {
+      "id": "doomscrolling",
+      "name": "Late-Night Doomscrolling",
+      "polarity": "negative",
+      "annualHealthDelta": -3,
+      "annualMentalDelta": -9,
+      "annualStressDelta": 6,
+      "annualCost": 0
+    },
+    {
+      "id": "gambling",
+      "name": "Compulsive Gambling",
+      "polarity": "negative",
+      "annualHealthDelta": -2,
+      "annualMentalDelta": -10,
+      "annualStressDelta": 12,
+      "annualCost": 6000
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "usa": {
+    "male": ["Liam", "Noah", "Ethan", "Marcus", "Caleb", "Julian", "Owen", "Devon", "Lucas", "Mateo"],
+    "female": ["Maya", "Chloe", "Elena", "Hannah", "Nora", "Zoe", "Claire", "Sofia", "Audrey", "Jade"],
+    "neutral": ["Alex", "Jordan", "Riley", "Taylor", "Morgan", "Quinn", "Avery", "Casey"],
+    "last": ["Mercer", "Hayes", "Brooks", "Patel", "Chen", "Morales", "Bennett", "Sullivan", "Carter", "Kim"]
+  },
+  "india": {
+    "male": ["Aarav", "Rohan", "Kabir", "Vihaan", "Arjun", "Dev", "Siddharth", "Nikhil", "Ishaan", "Karan"],
+    "female": ["Ananya", "Diya", "Meera", "Kavya", "Riya", "Nisha", "Tara", "Priya", "Sanya", "Aditi"],
+    "neutral": ["Kiran", "Arya", "Noor", "Samar", "Rishi", "Devika"],
+    "last": ["Sharma", "Verma", "Nair", "Kapoor", "Iyer", "Mehta", "Rao", "Malhotra", "Desai", "Bhat"]
+  },
+  "uk": {
+    "male": ["Oliver", "Arthur", "Theo", "Callum", "Harry", "Leo", "Finley", "Jude", "Sam", "Oscar"],
+    "female": ["Freya", "Isla", "Amelia", "Poppy", "Clara", "Imogen", "Ruby", "Grace", "Alice", "Maeve"],
+    "neutral": ["Charlie", "Rowan", "Robin", "Ellis", "Sam", "Jamie"],
+    "last": ["Clarke", "Davies", "Wright", "Walker", "Hughes", "Bennett", "Ward", "Turner", "Patel", "Reid"]
+  },
+  "japan": {
+    "male": ["Haruto", "Ren", "Sora", "Kaito", "Yuto", "Riku", "Daiki", "Kenji", "Takumi", "Minato"],
+    "female": ["Yui", "Hina", "Aoi", "Sakura", "Mio", "Rin", "Mei", "Kana", "Emi", "Sora"],
+    "neutral": ["Haru", "Akira", "Ren", "Aoi", "Nao", "Yuki"],
+    "last": ["Sato", "Suzuki", "Takahashi", "Tanaka", "Watanabe", "Ito", "Nakamura", "Kobayashi", "Kato", "Yoshida"]
+  },
+  "germany": {
+    "male": ["Lukas", "Jonas", "Felix", "Leon", "Paul", "Maximilian", "Moritz", "Tim", "Niklas", "Emil"],
+    "female": ["Hannah", "Mia", "Lena", "Clara", "Emilia", "Lina", "Laura", "Sophie", "Marie", "Nora"],
+    "neutral": ["Kim", "Luca", "Robin", "Alex", "Sascha", "Toni"],
+    "last": ["Mueller", "Schmidt", "Schneider", "Fischer", "Weber", "Meyer", "Wagner", "Becker", "Hoffmann", "Koch"]
+  },
+  "brazil": {
+    "male": ["Gabriel", "Lucas", "Matheus", "Pedro", "Rafael", "Thiago", "Bruno", "Felipe", "Caio", "Henrique"],
+    "female": ["Julia", "Beatriz", "Camila", "Larissa", "Mariana", "Sofia", "Leticia", "Isabela", "Clara", "Marina"],
+    "neutral": ["Ariel", "Duda", "Gabi", "Rafa", "Luan", "Cris"],
+    "last": ["Silva", "Santos", "Oliveira", "Souza", "Pereira", "Costa", "Rodrigues", "Almeida", "Ferreira", "Rocha"]
+  },
+  "canada": {
+    "male": ["Liam", "Nathan", "William", "Logan", "Benjamin", "Olivier", "Thomas", "Ethan", "Gabriel", "Owen"],
+    "female": ["Emma", "Olivia", "Charlotte", "Chloe", "Alice", "Sophie", "Amelia", "Maya", "Claire", "Camille"],
+    "neutral": ["Alex", "Charlie", "Jordan", "Sam", "Taylor", "Morgan"],
+    "last": ["Tremblay", "Smith", "Martin", "Roy", "Gagnon", "Lee", "Wilson", "Bouchard", "Campbell", "Taylor"]
+  },
+  "australia": {
+    "male": ["Jack", "Oliver", "Noah", "Lachlan", "Cooper", "Henry", "Leo", "Archer", "Charlie", "Liam"],
+    "female": ["Charlotte", "Isla", "Olivia", "Amelia", "Mia", "Chloe", "Matilda", "Grace", "Harper", "Zoe"],
+    "neutral": ["Riley", "Charlie", "Jordan", "Sam", "Darcy", "Frankie"],
+    "last": ["Smith", "Jones", "Williams", "Brown", "Wilson", "Taylor", "Anderson", "Nguyen", "Kelly", "Ryan"]
+  },
+  "france": {
+    "male": ["Gabriel", "Leo", "Raphael", "Louis", "Lucas", "Jules", "Adam", "Hugo", "Arthur", "Theo"],
+    "female": ["Jade", "Louise", "Emma", "Ambre", "Alice", "Chloe", "Ines", "Camille", "Lea", "Manon"],
+    "neutral": ["Camille", "Sacha", "Charlie", "Noa", "Eden", "Andrea"],
+    "last": ["Martin", "Bernard", "Dubois", "Thomas", "Robert", "Richard", "Petit", "Durand", "Leroy", "Moreau"]
+  },
+  "south_korea": {
+    "male": ["Minjun", "Seojun", "Doyun", "Jiho", "Juwon", "Hyunwoo", "Jaemin", "Taeoh", "Siwoo", "Junho"],
+    "female": ["Seoyeon", "Jiwoo", "Soyeon", "Minji", "Hana", "Yuna", "Chaewon", "Jimin", "Sujin", "Nayeon"],
+    "neutral": ["Jiwon", "Hyun", "Min", "Seojin", "Yujin", "Haesol"],
+    "last": ["Kim", "Lee", "Park", "Choi", "Jung", "Kang", "Cho", "Yoon", "Jang", "Lim"]
+  },
+  "mexico": {
+    "male": ["Santiago", "Mateo", "Sebastian", "Diego", "Alejandro", "Daniel", "Leonardo", "Emiliano", "Gael", "Carlos"],
+    "female": ["Sofia", "Valentina", "Regina", "Camila", "Valeria", "Ximena", "Lucia", "Mariana", "Renata", "Natalia"],
+    "neutral": ["Cruz", "Ariel", "Gael", "Alex", "Andrea", "Rene"],
+    "last": ["Hernandez", "Garcia", "Martinez", "Lopez", "Gonzalez", "Perez", "Rodriguez", "Sanchez", "Ramirez", "Flores"]
+  },
+  "italy": {
+    "male": ["Leonardo", "Francesco", "Alessandro", "Lorenzo", "Mattia", "Andrea", "Gabriele", "Matteo", "Tommaso", "Marco"],
+    "female": ["Sofia", "Giulia", "Aurora", "Alice", "Ginevra", "Emma", "Giorgia", "Beatrice", "Chiara", "Elena"],
+    "neutral": ["Andrea", "Luca", "Alex", "Sasha", "Gabriele", "Dani"],
+    "last": ["Rossi", "Russo", "Ferrari", "Esposito", "Bianchi", "Romano", "Colombo", "Ricci", "Marino", "Greco"]
+  },
+  "spain": {
+    "male": ["Hugo", "Mateo", "Martin", "Lucas", "Leo", "Daniel", "Alejandro", "Pablo", "Manuel", "Alvaro"],
+    "female": ["Lucia", "Sofia", "Martina", "Maria", "Julia", "Paula", "Valeria", "Emma", "Daniela", "Carla"],
+    "neutral": ["Alex", "Cruz", "Ariel", "Noa", "Dani", "Andrea"],
+    "last": ["Garcia", "Rodriguez", "Gonzalez", "Fernandez", "Lopez", "Martinez", "Sanchez", "Perez", "Gomez", "Ruiz"]
+  },
+  "singapore": {
+    "male": ["Ethan", "Lucas", "Jayden", "Ryan", "Daniel", "Wei Ming", "Jun Hao", "Aiden", "Arjun", "Hafiz"],
+    "female": ["Chloe", "Sophie", "Emma", "Rachel", "Zhi Xin", "Hui Min", "Aisha", "Priya", "Clarissa", "Hannah"],
+    "neutral": ["Kai", "Jia", "Alex", "Sam", "Noor", "Rui"],
+    "last": ["Tan", "Lim", "Lee", "Ng", "Ong", "Wong", "Goh", "Chua", "Koh", "Nair"]
+  },
+  "uae": {
+    "male": ["Zayed", "Rashid", "Omar", "Hamdan", "Tariq", "Kareem", "Saeed", "Khalid", "Mansoor", "Faisal"],
+    "female": ["Fatima", "Mariam", "Aisha", "Noura", "Latifa", "Alia", "Reem", "Sara", "Hessa", "Salama"],
+    "neutral": ["Noor", "Rayan", "Shams", "Zain", "Sami", "Dana"],
+    "last": ["Al Maktoum", "Al Nahyan", "Al Mansoori", "Al Qasimi", "Al Suwaidi", "Al Mazrouei", "Al Nuaimi", "Al Shamsi", "Haddad", "Farooq"]
+  },
+  "sweden": {
+    "male": ["William", "Liam", "Noah", "Hugo", "Lucas", "Elias", "Oscar", "Oliver", "Matteo", "Emil"],
+    "female": ["Alice", "Maja", "Elsa", "Astrid", "Wilma", "Freja", "Olivia", "Selma", "Alma", "Ella"],
+    "neutral": ["Kim", "Robin", "Charlie", "Alex", "Love", "Sasha"],
+    "last": ["Andersson", "Johansson", "Karlsson", "Nilsson", "Eriksson", "Larsson", "Olsson", "Persson", "Svensson", "Lindqvist"]
+  },
+  "nigeria": {
+    "male": ["Chinedu", "Tunde", "Emeka", "Ibrahim", "Adebayo", "Kelechi", "Oluwaseun", "Chukwudi", "Yusuf", "Femi"],
+    "female": ["Amaka", "Zainab", "Chidinma", "Ngozi", "Amina", "Funke", "Adaeze", "Tolu", "Ifeoma", "Bisi"],
+    "neutral": ["Kemi", "Tobi", "Damilola", "Seyi", "Uche", "Chidi"],
+    "last": ["Okafor", "Adeyemi", "Balogun", "Ibrahim", "Nwosu", "Abubakar", "Olawale", "Okonkwo", "Afolabi", "Eze"]
+  },
+  "south_africa": {
+    "male": ["Thabo", "Liam", "Sipho", "Pieter", "Kagiso", "Ethan", "Bongani", "Johan", "Siyabonga", "Dylan"],
+    "female": ["Lerato", "Naledi", "Chloe", "Annelize", "Thandiwe", "Mia", "Zanele", "Amahle", "Hannah", "Nomvula"],
+    "neutral": ["Kagiso", "Tumi", "Alex", "Jordan", "Sbu", "Refilwe"],
+    "last": ["Nkosi", "Botha", "Dlamini", "Van der Merwe", "Ndlovu", "Mokoena", "Nel", "Khumalo", "Pretorius", "Pillay"]
+  }
+}

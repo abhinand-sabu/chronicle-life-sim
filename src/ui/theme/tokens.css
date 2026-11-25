@@ -1,0 +1,49 @@
+:root {
+  /* Matte Graphite Dark Surfaces (Zero blue-slate SaaS tint) */
+  --bg-outer: #0B0D10;
+  --bg-app: #14171D;
+  --bg-card: #1C2029;
+  --bg-elevated: #232834;
+  --bg-input: #12151B;
+  --bg-hover: #2A303E;
+
+  /* Hairline Borders */
+  --border-subtle: #262C38;
+  --border-strong: #363E4F;
+
+  /* Crisp Text */
+  --text-primary: #F4F6FA;
+  --text-secondary: #9CA3B4;
+  --text-muted: #6C7486;
+
+  /* Purposeful Game Accents */
+  --accent-emerald: #22C55E;
+  --accent-emerald-deep: #15803D;
+  --accent-emerald-soft: rgba(34, 197, 94, 0.14);
+
+  --accent-rose: #EF4444;
+  --accent-rose-soft: rgba(239, 68, 68, 0.14);
+
+  --accent-amber: #F59E0B;
+  --accent-amber-soft: rgba(245, 158, 11, 0.14);
+
+  --accent-gold: #FACC15;
+  --accent-sky: #38BDF8;
+  --accent-sky-soft: rgba(56, 189, 248, 0.14);
+
+  --accent-violet: #A78BFA;
+  --accent-violet-soft: rgba(167, 139, 250, 0.14);
+
+  /* Typography */
+  --font-display: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-ui: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Radii */
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+  --radius-pill: 999px;
+
+  /* Motion */
+  --ease-snappy: cubic-bezier(0.2, 0.85, 0.25, 1);
+}

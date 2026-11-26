@@ -1,0 +1,102 @@
+{
+  "investments": [
+    {
+      "id": "index_global",
+      "name": "Global Index ETF",
+      "type": "index_fund",
+      "expectedAnnualReturn": 0.08,
+      "annualVolatility": 0.14,
+      "minInvestment": 100
+    },
+    {
+      "id": "tech_growth",
+      "name": "Frontier Tech Basket",
+      "type": "stock",
+      "expectedAnnualReturn": 0.13,
+      "annualVolatility": 0.28,
+      "minInvestment": 250
+    },
+    {
+      "id": "gov_bonds",
+      "name": "Treasury Bonds",
+      "type": "bond",
+      "expectedAnnualReturn": 0.042,
+      "annualVolatility": 0.03,
+      "minInvestment": 100
+    },
+    {
+      "id": "crypto_basket",
+      "name": "Digital Assets Basket",
+      "type": "crypto",
+      "expectedAnnualReturn": 0.18,
+      "annualVolatility": 0.65,
+      "minInvestment": 100
+    }
+  ],
+  "housing": [
+    {
+      "id": "parents_home",
+      "name": "Parents' Home",
+      "annualRent": 0,
+      "purchasePrice": 0,
+      "happinessBonus": 0,
+      "stressReduction": 2
+    },
+    {
+      "id": "shared_apt",
+      "name": "Shared Apartment",
+      "annualRent": 9600,
+      "purchasePrice": 0,
+      "happinessBonus": 2,
+      "stressReduction": 0
+    },
+    {
+      "id": "studio_apt",
+      "name": "City Studio",
+      "annualRent": 16800,
+      "purchasePrice": 220000,
+      "happinessBonus": 5,
+      "stressReduction": 2
+    },
+    {
+      "id": "suburban_house",
+      "name": "Suburban Family Home",
+      "annualRent": 28000,
+      "purchasePrice": 460000,
+      "happinessBonus": 10,
+      "stressReduction": 4
+    },
+    {
+      "id": "luxury_villa",
+      "name": "Hillside Estate",
+      "annualRent": 68000,
+      "purchasePrice": 1450000,
+      "happinessBonus": 16,
+      "stressReduction": 6
+    },
+    {
+      "id": "shared_flat",
+      "name": "Room in a Shared Flat",
+      "annualRent": 4200,
+      "purchasePrice": 0,
+      "happinessBonus": 1,
+      "stressReduction": 1
+    },
+    {
+      "id": "unhoused",
+      "name": "Unhoused",
+      "annualRent": 0,
+      "purchasePrice": 0,
+      "happinessBonus": 0,
+      "stressReduction": 0
+    },
+    {
+      "id": "emergency_shelter",
+      "name": "Emergency Shelter",
+      "annualRent": 0,
+      "purchasePrice": 0,
+      "happinessBonus": 0,
+      "stressReduction": 0
+    }
+  ]
+}
